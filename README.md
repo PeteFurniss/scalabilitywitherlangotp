@@ -2,7 +2,7 @@
 Exercises and examples for Designing for Scalability with Erlang OTP by Francesco Cesarini &amp; Steve Vinoski (O'Reilly)
 ISBN: 978-1-449-32073-7
 
-Chapter 6 Finite State Machines
+== Chapter 6 Finite State Machines ==
 
 The code in ch6/exercise implements a phone controller FSM and mobile phone as per the APIs defined in chapter 6 of Designing for Scalability with Erlang/OTP.
 
@@ -10,6 +10,7 @@ A suite of eunit tests are also provided.
 
 Example usage:
 
+ <nowiki>
 Eshell V8.3  (abort with ^G)
 
 1> c(hlr).  
@@ -78,6 +79,7 @@ ok
 <0.213.0>: "124": action: hangup
 <0.210.0>: "123": received reply: hangup
 ok
+</nowiki>
 
 
 This implementation differs slightly from that described in the book:
